@@ -1,0 +1,49 @@
+What is Unit Testing?
+- Software testing method that break your software to pieces
+- Tests written and run by the software developers
+- It test a section (unit) in your application to ensure it work and behave like expected
+- Unit test can be for one method
+- Unit test can be for the Whole Class in OOP
+- Unit Test can be the Whole Module
+- Unit Test can be done for the Whole Procedure
+- A unit is the samllest testable part of any software
+
+Real life examples
+- Vue js component test
+- React js component test
+- Angular component test
+- Test component + templates
+
+Famous Testing frameworks
+- Jest => Developed by Facebook
+- Mocha
+- Jasmine
+- Karma
+
+Why I need to write Unit Tests?
+- Quality of code and design
+- Find issues and bugs early
+- Functionality documentation
+
+Types of Tests
+- Integartion Tests
+- End To End Tests
+- Unit Test
+
+What you need to learn?
+- JavaScript
+- ECMAScript 6
+
+-----------------------------------
+-----------------------------------
+
+[1] Get the function to test
+[2] Give input to the function
+[3] Define what is the output
+[4] Check for the output
+
+TDD => Test driven development
+
+[1] Think about what your code will do
+[2] Write the code
+[3] Test the code

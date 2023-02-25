@@ -1,0 +1,28 @@
+{
+  "name": "jest_testing",
+  "version": "1.0.0",
+  "description": "For Unit Testing course",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --watchAll"
+  },
+  "author": "Abbas Ghaith",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^29.0.1"
+  },
+  "jest": {
+    "//1": "Collect Coverage Options",
+    "collectCoverage": true,
+    "coverageReporters": [
+      "html"
+    ],
+    "//2": "Collect Directory",
+    "coverageDirectory": "reports",
+    "collectCoverageFrom": ["**/*.{js,jsx,ts}"],
+    "coveragePathIgnorePatterns": [
+      "/node_modules/", 
+      "/build/"
+    ]
+  }
+}
